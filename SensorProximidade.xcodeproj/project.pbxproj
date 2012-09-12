@@ -1,0 +1,450 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6A3F1AA71600D2510024F67C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A3F1AA61600D2510024F67C /* UIKit.framework */; };
+		6A3F1AA91600D2510024F67C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A3F1AA81600D2510024F67C /* Foundation.framework */; };
+		6A3F1AAB1600D2510024F67C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A3F1AAA1600D2510024F67C /* CoreGraphics.framework */; };
+		6A3F1AB11600D2510024F67C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6A3F1AAF1600D2510024F67C /* InfoPlist.strings */; };
+		6A3F1AB31600D2510024F67C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A3F1AB21600D2510024F67C /* main.m */; };
+		6A3F1AB71600D2510024F67C /* PrincipalAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A3F1AB61600D2510024F67C /* PrincipalAppDelegate.m */; };
+		6A3F1ABA1600D2510024F67C /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A3F1AB81600D2510024F67C /* MainStoryboard.storyboard */; };
+		6A3F1ABD1600D2510024F67C /* PrincipalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A3F1ABC1600D2510024F67C /* PrincipalViewController.m */; };
+		6A3F1AC51600D2510024F67C /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A3F1AC41600D2510024F67C /* SenTestingKit.framework */; };
+		6A3F1AC61600D2510024F67C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A3F1AA61600D2510024F67C /* UIKit.framework */; };
+		6A3F1AC71600D2510024F67C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A3F1AA81600D2510024F67C /* Foundation.framework */; };
+		6A3F1ACF1600D2510024F67C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6A3F1ACD1600D2510024F67C /* InfoPlist.strings */; };
+		6A3F1AD21600D2510024F67C /* SensorProximidadeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A3F1AD11600D2510024F67C /* SensorProximidadeTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6A3F1AC81600D2510024F67C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6A3F1A991600D2510024F67C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6A3F1AA11600D2510024F67C;
+			remoteInfo = SensorProximidade;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6A3F1AA21600D2510024F67C /* SensorProximidade.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SensorProximidade.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A3F1AA61600D2510024F67C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6A3F1AA81600D2510024F67C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6A3F1AAA1600D2510024F67C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6A3F1AAE1600D2510024F67C /* SensorProximidade-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SensorProximidade-Info.plist"; sourceTree = "<group>"; };
+		6A3F1AB01600D2510024F67C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6A3F1AB21600D2510024F67C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6A3F1AB41600D2510024F67C /* SensorProximidade-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SensorProximidade-Prefix.pch"; sourceTree = "<group>"; };
+		6A3F1AB51600D2510024F67C /* PrincipalAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrincipalAppDelegate.h; sourceTree = "<group>"; };
+		6A3F1AB61600D2510024F67C /* PrincipalAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PrincipalAppDelegate.m; sourceTree = "<group>"; };
+		6A3F1AB91600D2510024F67C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		6A3F1ABB1600D2510024F67C /* PrincipalViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrincipalViewController.h; sourceTree = "<group>"; };
+		6A3F1ABC1600D2510024F67C /* PrincipalViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PrincipalViewController.m; sourceTree = "<group>"; };
+		6A3F1AC31600D2510024F67C /* SensorProximidadeTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SensorProximidadeTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A3F1AC41600D2510024F67C /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		6A3F1ACC1600D2510024F67C /* SensorProximidadeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SensorProximidadeTests-Info.plist"; sourceTree = "<group>"; };
+		6A3F1ACE1600D2510024F67C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6A3F1AD01600D2510024F67C /* SensorProximidadeTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SensorProximidadeTests.h; sourceTree = "<group>"; };
+		6A3F1AD11600D2510024F67C /* SensorProximidadeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SensorProximidadeTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6A3F1A9F1600D2510024F67C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A3F1AA71600D2510024F67C /* UIKit.framework in Frameworks */,
+				6A3F1AA91600D2510024F67C /* Foundation.framework in Frameworks */,
+				6A3F1AAB1600D2510024F67C /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A3F1ABF1600D2510024F67C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A3F1AC51600D2510024F67C /* SenTestingKit.framework in Frameworks */,
+				6A3F1AC61600D2510024F67C /* UIKit.framework in Frameworks */,
+				6A3F1AC71600D2510024F67C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6A3F1A971600D2510024F67C = {
+			isa = PBXGroup;
+			children = (
+				6A3F1AAC1600D2510024F67C /* SensorProximidade */,
+				6A3F1ACA1600D2510024F67C /* SensorProximidadeTests */,
+				6A3F1AA51600D2510024F67C /* Frameworks */,
+				6A3F1AA31600D2510024F67C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6A3F1AA31600D2510024F67C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6A3F1AA21600D2510024F67C /* SensorProximidade.app */,
+				6A3F1AC31600D2510024F67C /* SensorProximidadeTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6A3F1AA51600D2510024F67C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6A3F1AA61600D2510024F67C /* UIKit.framework */,
+				6A3F1AA81600D2510024F67C /* Foundation.framework */,
+				6A3F1AAA1600D2510024F67C /* CoreGraphics.framework */,
+				6A3F1AC41600D2510024F67C /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6A3F1AAC1600D2510024F67C /* SensorProximidade */ = {
+			isa = PBXGroup;
+			children = (
+				6A3F1AB51600D2510024F67C /* PrincipalAppDelegate.h */,
+				6A3F1AB61600D2510024F67C /* PrincipalAppDelegate.m */,
+				6A3F1AB81600D2510024F67C /* MainStoryboard.storyboard */,
+				6A3F1ABB1600D2510024F67C /* PrincipalViewController.h */,
+				6A3F1ABC1600D2510024F67C /* PrincipalViewController.m */,
+				6A3F1AAD1600D2510024F67C /* Supporting Files */,
+			);
+			path = SensorProximidade;
+			sourceTree = "<group>";
+		};
+		6A3F1AAD1600D2510024F67C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6A3F1AAE1600D2510024F67C /* SensorProximidade-Info.plist */,
+				6A3F1AAF1600D2510024F67C /* InfoPlist.strings */,
+				6A3F1AB21600D2510024F67C /* main.m */,
+				6A3F1AB41600D2510024F67C /* SensorProximidade-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6A3F1ACA1600D2510024F67C /* SensorProximidadeTests */ = {
+			isa = PBXGroup;
+			children = (
+				6A3F1AD01600D2510024F67C /* SensorProximidadeTests.h */,
+				6A3F1AD11600D2510024F67C /* SensorProximidadeTests.m */,
+				6A3F1ACB1600D2510024F67C /* Supporting Files */,
+			);
+			path = SensorProximidadeTests;
+			sourceTree = "<group>";
+		};
+		6A3F1ACB1600D2510024F67C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6A3F1ACC1600D2510024F67C /* SensorProximidadeTests-Info.plist */,
+				6A3F1ACD1600D2510024F67C /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6A3F1AA11600D2510024F67C /* SensorProximidade */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A3F1AD51600D2510024F67C /* Build configuration list for PBXNativeTarget "SensorProximidade" */;
+			buildPhases = (
+				6A3F1A9E1600D2510024F67C /* Sources */,
+				6A3F1A9F1600D2510024F67C /* Frameworks */,
+				6A3F1AA01600D2510024F67C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SensorProximidade;
+			productName = SensorProximidade;
+			productReference = 6A3F1AA21600D2510024F67C /* SensorProximidade.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6A3F1AC21600D2510024F67C /* SensorProximidadeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A3F1AD81600D2510024F67C /* Build configuration list for PBXNativeTarget "SensorProximidadeTests" */;
+			buildPhases = (
+				6A3F1ABE1600D2510024F67C /* Sources */,
+				6A3F1ABF1600D2510024F67C /* Frameworks */,
+				6A3F1AC01600D2510024F67C /* Resources */,
+				6A3F1AC11600D2510024F67C /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6A3F1AC91600D2510024F67C /* PBXTargetDependency */,
+			);
+			name = SensorProximidadeTests;
+			productName = SensorProximidadeTests;
+			productReference = 6A3F1AC31600D2510024F67C /* SensorProximidadeTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6A3F1A991600D2510024F67C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Principal;
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = rafapaulino.com;
+			};
+			buildConfigurationList = 6A3F1A9C1600D2510024F67C /* Build configuration list for PBXProject "SensorProximidade" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6A3F1A971600D2510024F67C;
+			productRefGroup = 6A3F1AA31600D2510024F67C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6A3F1AA11600D2510024F67C /* SensorProximidade */,
+				6A3F1AC21600D2510024F67C /* SensorProximidadeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6A3F1AA01600D2510024F67C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A3F1AB11600D2510024F67C /* InfoPlist.strings in Resources */,
+				6A3F1ABA1600D2510024F67C /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A3F1AC01600D2510024F67C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A3F1ACF1600D2510024F67C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6A3F1AC11600D2510024F67C /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6A3F1A9E1600D2510024F67C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A3F1AB31600D2510024F67C /* main.m in Sources */,
+				6A3F1AB71600D2510024F67C /* PrincipalAppDelegate.m in Sources */,
+				6A3F1ABD1600D2510024F67C /* PrincipalViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A3F1ABE1600D2510024F67C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A3F1AD21600D2510024F67C /* SensorProximidadeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6A3F1AC91600D2510024F67C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6A3F1AA11600D2510024F67C /* SensorProximidade */;
+			targetProxy = 6A3F1AC81600D2510024F67C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6A3F1AAF1600D2510024F67C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6A3F1AB01600D2510024F67C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6A3F1AB81600D2510024F67C /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6A3F1AB91600D2510024F67C /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		6A3F1ACD1600D2510024F67C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6A3F1ACE1600D2510024F67C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6A3F1AD31600D2510024F67C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6A3F1AD41600D2510024F67C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6A3F1AD61600D2510024F67C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SensorProximidade/SensorProximidade-Prefix.pch";
+				INFOPLIST_FILE = "SensorProximidade/SensorProximidade-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6A3F1AD71600D2510024F67C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SensorProximidade/SensorProximidade-Prefix.pch";
+				INFOPLIST_FILE = "SensorProximidade/SensorProximidade-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		6A3F1AD91600D2510024F67C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SensorProximidade.app/SensorProximidade";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SensorProximidade/SensorProximidade-Prefix.pch";
+				INFOPLIST_FILE = "SensorProximidadeTests/SensorProximidadeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		6A3F1ADA1600D2510024F67C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SensorProximidade.app/SensorProximidade";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SensorProximidade/SensorProximidade-Prefix.pch";
+				INFOPLIST_FILE = "SensorProximidadeTests/SensorProximidadeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6A3F1A9C1600D2510024F67C /* Build configuration list for PBXProject "SensorProximidade" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A3F1AD31600D2510024F67C /* Debug */,
+				6A3F1AD41600D2510024F67C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A3F1AD51600D2510024F67C /* Build configuration list for PBXNativeTarget "SensorProximidade" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A3F1AD61600D2510024F67C /* Debug */,
+				6A3F1AD71600D2510024F67C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6A3F1AD81600D2510024F67C /* Build configuration list for PBXNativeTarget "SensorProximidadeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A3F1AD91600D2510024F67C /* Debug */,
+				6A3F1ADA1600D2510024F67C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6A3F1A991600D2510024F67C /* Project object */;
+}
